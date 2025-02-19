@@ -16,13 +16,15 @@
 
 /* base styles */
 main {
-  max-width: 900px;
-  min-width: 80%;
+  /* max-width: 900px; */
+  /* min-width: 275px; */
+  width: 100vw;
+  height: 100vh;
   margin: auto;
   border: 2px solid var(--secondary);
 }
 header {
-  background: var(--secondary);
+  background-color: var(--secondary);
   padding: 20px 15px 10px;
 }
 header .header-top,
@@ -140,6 +142,7 @@ form {
   padding: 10px;
   width: 80%;
 }
+
 /* fonts */
 h1 {
   color: var(--tertiary);
@@ -284,3 +287,73 @@ h1 {
   color: #172b4d;
 }
 /* mobile styles */
+
+/* mobile styles */
+@media screen and (min-width: 768px) {
+  .headline-text h1 {
+    font-size: 64px;
+    margin-bottom: 25px;
+  }
+  .headline-text h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .headline-text p {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  #healine-socials {
+    width: 240px;
+    height: 46px;
+  }
+
+  .works-top {
+    margin-bottom: 20px;
+  }
+
+  .works-text1 h2 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  .works-text1 p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+  .works-text1 img {
+    width: 400px;
+  }
+  .works-text1 .works-btn-1 {
+    font-size: 2rem;
+    width: 200px;
+  }
+  .grid {
+    padding-top: 40px;
+  }
+
+  .works-title h2 {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  .works-image1 {
+    height: 20vh;
+    margin-bottom: 140px;
+  }
+  .works-image1 img {
+    width: 600px;
+  }
+  .works-grid h2 {
+    font-size: 50px;
+  }
+  .works-grid p {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+  .works-grid img {
+    margin-bottom: 24pxpx;
+  }
+  .works-grid .works-btn {
+    position: relative;
+    font-size: 32px;
+  }
+}
