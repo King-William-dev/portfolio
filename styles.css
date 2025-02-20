@@ -286,9 +286,16 @@ h1 {
   line-height: 2.75rem;
   color: #172b4d;
 }
+
+footer {
+  text-align: center;
+}
+footer img {
+  cursor: pointer;
+}
 /* mobile styles */
 
-/* mobile styles */
+/* Tablet styles */
 @media screen and (min-width: 768px) {
   .headline-text h1 {
     font-size: 64px;
@@ -355,5 +362,42 @@ h1 {
   .works-grid .works-btn {
     position: relative;
     font-size: 32px;
+  }
+  .about-text p {
+    font-size: 32px;
+    line-height: 2.4rem;
+    margin-top: 20px;
+  }
+  .about-text .resume {
+    font-size: 30px;
+  }
+  .contact-text h3 {
+    text-align: center;
+    width: 80%;
+    margin: 26px auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .contact-form button {
+    background: var(--tertiary);
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+  .headline {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 4fr 2fr;
+  }
+  .headline-text {
+    grid-area: 1/2;
   }
 }
