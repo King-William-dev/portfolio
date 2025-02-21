@@ -307,7 +307,7 @@ footer img {
     font-size: 1.5rem;
     margin-bottom: 25px;
   }
-  #healine-socials {
+  #headline-socials {
     width: 240px;
     height: 46px;
   }
@@ -367,7 +367,7 @@ footer img {
     margin-top: 20px;
   }
   .about-text .resume {
-    font-size: 30px;
+    font-size: 26px;
   }
   .contact-text h3 {
     text-align: center;
@@ -389,13 +389,31 @@ footer img {
 }
 
 /* Desktop styles */
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
+  .mobile-only {
+    display: none;
+  }
   .headline {
     display: grid;
     column-gap: 20px;
-    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-columns: 1fr 6fr 1fr 1fr;
   }
   .headline-text {
     grid-area: 1/2;
+  }
+  .headline .desktop-only {
+    width: 410px;
+  }
+  .flex {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1026px) {
+  .desktop-only {
+    display: none;
   }
 }
