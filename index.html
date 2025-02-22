@@ -9,59 +9,414 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <nav>
-      <div class="main-nav">
-        <div class="logo">Logo</div>
-        <div class="menu-items">
+    <div class="overlay">
+      <!-- Navigation bar -->
+      <nav>
+        <div class="nav-container">
+          <div class="logo-container">
+            <a href="#"><h3>Logo</h3></a>
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <div class="menu-items">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header section -->
+      <header>
+        <div class="header-social-icons">
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <a href=""><li><i class="fa-brands fa-github"></i></li></a>
+            <a href="#"><li><i class="fa-brands fa-linkedin-in"></i></li></a>
+            <a href="#"><li><i class="fa-brands fa-twitter"></i></li></a>
+            <a href="#"><li><i class="fa-brands fa-medium"></i></li></a>
           </ul>
         </div>
-      </div>
-    </nav>
-    <header>
-      <div class="header-social-icons">
-        <ul>
-          <li><i class="fa-brands fa-github"></i></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-      <div class="header-text">
-        <h2></h2>
-        <h3></h3>
-        <p></p>
-      </div>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <h1>Welcome to My Portfolio</h1>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Brief description about yourself.</p>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <p>Details about your projects.</p>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>How to get in touch with you.</p>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2025 Olei William. All rights reserved.</p>
-    </footer>
+        <div class="header-text">
+          <h2>Hey There. <br />I am William</h2>
+          <h4>I’m a Software Developer</h4>
+          <p>
+            I can help you build a product , feature or website. Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+        <div class="header-illustration-images">
+          <div class="header-illustration">
+            <img
+              class="mobile-only"
+              src="/images/illustration-header-mobile.png"
+              alt="an illustration photo for mobile version"
+            />
+          </div>
+          <div class="header-illustration">
+            <img
+              class="desktop-only"
+              src="/images/Illustration-header-desktop.png"
+              alt="an illustration photo for desktop version"
+            />
+          </div>
+        </div>
+      </header>
+
+      <!-- Main section - works -->
+      <main class="works-container">
+        <section id="recent-works">
+          <div class="works-stories">
+            <div class="works-heading"><h1>Recent Works</h1>
+            <hr />
+          </div>
+            <div class="works-image">
+            <img
+              src="/images/works-main.png"
+              alt="image illustrating works section"
+            />
+          </div>
+          </div>
+          <div class="works-top-section">
+            <h2>Multi-Post Stories</h2>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. This has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <div class="courses-container">
+              <div>CSS</div>
+              <div>HTML</div>
+              <div>Bootstrap</div>
+              <div>Ruby</div>
+            </div>
+            <div class="works-button-1">
+              <a href="#">See Project</a>
+            </div>
+          </div>
+          <div class="works-card-container">
+            <div class="card-content image-1">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div><a href="#">See Project</a></div>
+            </div>
+
+            <div class="card-content image-2">
+              <img
+                src="images/img-placeholder-2.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Data DashBaord Health Care</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div>
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content image-3">
+              <img
+                src="images/img-placeholder-3.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Website Portfolio</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div>
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+            </div>
+<!-- Card 4 - Repeated 6 times -->
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+            <div class="card-content image-4">
+              <img
+                src="images/img-placeholder.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Profesional Art <br>Printing Data More</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div class="card-content-course">
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+              <div class="works-button-2">
+                <a href="#">See Project</a>
+              </div>
+            </div>
+            <!-- End of card 4 -->
+            <div class="card-content image-5">
+              <img
+                src="images/img-placeholder-2.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Data Dashboard Healthcare</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div>
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content image-6">
+              <img
+                src="images/img-placeholder-3.png"
+                alt="works image placeholder"
+              />
+              <div>
+                <h2>Website Portfolio</h2>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required. Has been the industry's standard.
+                </p>
+                <div>
+                  <div>HTML</div>
+                  <div>Bootstrap</div>
+                  <div>Ruby</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+        <section id="about-container">
+          <div class="about-me-container">
+            <div class="about-me-text">
+              <h1>About me</h1>
+              <p>
+                Hey there! I can help you build a product, feature or website.
+                Look through some of my work and experience! If you like what
+                you see and have a project you need coded, don’t hesitate to
+                contact me.
+              </p>
+              <div><a href="#">Get my Resume</a></div>
+            </div>
+            <div>
+              <img
+                src="images/about-img.png"
+                alt="an image of about me section"
+              />
+            </div>
+          </div>
+          <div class="skill-container">
+            <div>
+              <h2>Language</h2>
+              <div>
+                <div>HTML</div>
+                <div>CSS</div>
+                <div>JavaScript</div>
+                <div>Ruby</div>
+            </div>
+            <div>
+              <h2>Frameworks</h2>
+              <div>
+                <div>Bootstrap</div>
+                <div>React</div>
+                <div>Vue</div>
+                <div>Ruby on Rails</div>
+            </div>
+            <div>
+              <h2>Skills  </h2>
+              <div>
+                <div>Database Management</div>
+                <div>Version Control</div>
+                <div>CLI</div>
+                <div>API Design</div>
+                <div>Web Development</div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+          <div class="form-container">
+            <form action="">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" />
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <div><button>Get in Touch</button></div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer section -->
+      <footer>
+        <div>
+          <div>Logo</div>
+          <div>
+            <ul>
+              <ul>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-medium"></i></li>
+              </ul>
+            </ul>
+          </div>
+        <p>&copy; 2025 Olei William. All rights reserved.</p>
+      </footer>
+    </div>
   </body>
 </html>
